@@ -50,8 +50,15 @@ public class GerenciaAluno {
 	 
 	 al.setAltura (Float.parseFloat(JOptionPane.showInputDialog(
 			 "Digite a altura do aluno: ")));
- 
+ }
+	 public void mostrarAluno(){
+		 JOptionPane.showMessageDialog(null, 
+				 "Nome do aluno:" + al.getNome());
+		 
+		 JOptionPane.showMessageDialog(null, 
+				 "Idade do aluno:" + al.getIdade());
+	 }
+	 
 	 
  }
  
-}
