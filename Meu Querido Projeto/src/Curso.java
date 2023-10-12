@@ -1,7 +1,7 @@
 
 public class Curso {
 
-	String professorCurso, registroGeral, cadPessoaFisica, registroMatricula, turma, materia;
+	String professorCurso, turma, materia;
 
 	public String getProfessorCurso() {
 		return professorCurso;
@@ -9,30 +9,6 @@ public class Curso {
 
 	public void setProfessorCurso(String professorCurso) {
 		this.professorCurso = professorCurso;
-	}
-
-	public String getRegistroGeral() {
-		return registroGeral;
-	}
-
-	public void setRegistroGeral(String registroGeral) {
-		this.registroGeral = registroGeral;
-	}
-
-	public String getCadPessoaFisica() {
-		return cadPessoaFisica;
-	}
-
-	public void setCadPessoaFisica(String cadPessoaFisica) {
-		this.cadPessoaFisica = cadPessoaFisica;
-	}
-
-	public String getRegistroMatricula() {
-		return registroMatricula;
-	}
-
-	public void setRegistroMatricula(String registroMatricula) {
-		this.registroMatricula = registroMatricula;
 	}
 
 	public String getTurma() {
