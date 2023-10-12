@@ -23,9 +23,11 @@ public class Principal {
 		break;
 	case 2:
 		gp.CadastrarProfessor();
-		
+		break;
+	case 5:
+		ga.mostrarAluno();
+		break;
 	}
-	
 	} while( num != 0);
 }
 }
